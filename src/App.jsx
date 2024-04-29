@@ -1,7 +1,7 @@
 import "./App.css";
 import { useCatImage } from "./hooks/useCatImage.js";
 import { useCatFact } from "./hooks/useCatFact.js";
-import useModal from "./hooks/useModal.js";
+import { useModal } from "./hooks/useModal.js";
 
 function App() {
   const { fact, refreshFact } = useCatFact();
